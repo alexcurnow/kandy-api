@@ -1,5 +1,54 @@
 {
-  "products": [],
+  "products": [
+    {
+      "id": 1,
+      "typeId": 1,
+      "name": "Cheek Rocks",
+      "price": 2.99
+    },
+    {
+      "id": 2,
+      "typeId": 1,
+      "name": "Sour Heads",
+      "price": 2.49
+    },
+    {
+      "id": 3,
+      "typeId": 2,
+      "name": "Chew 'n Spit",
+      "price": 1.99
+    },
+    {
+      "id": 4,
+      "typeId": 2,
+      "name": "Bubble Funk",
+      "price": 2.49
+    },
+    {
+      "id": 5,
+      "typeId": 3,
+      "name": "Choco Chunks",
+      "price": 3.99
+    },
+    {
+      "id": 6,
+      "typeId": 3,
+      "name": "Lava Cake Poppers",
+      "price": 4.49
+    },
+    {
+      "id": 7,
+      "typeId": 4,
+      "name": "Sparkle Sugar Fizz",
+      "price": 2.49
+    },
+    {
+      "id": 8,
+      "typeId": 4,
+      "name": "Bubbly Enamel Destroyer",
+      "price": 5.49
+    }
+  ],
   "locations": [
     {
       "id": 1,
@@ -17,6 +66,23 @@
     }
   ],
   "employees": [],
-  "productTypes": [],
+  "productTypes": [
+    {
+      "id": 1,
+      "type": "Hard Candy"
+    },
+    {
+      "id": 2,
+      "type": "Gum"
+    },
+    {
+      "id": 3,
+      "type": "Chocolate"
+    },
+    {
+      "id": 4,
+      "type": "Soda"
+    }
+  ],
   "customers": []
 }
