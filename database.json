@@ -1,0 +1,22 @@
+{
+  "products": [],
+  "locations": [
+    {
+      "id": 1,
+      "location": "East Nashville",
+      "address": "555 East St",
+      "squareFootage": 2400,
+      "handicapAccessible": true
+    },
+    {
+      "id": 2,
+      "location": "West Nashville",
+      "address": "404 West St",
+      "squareFootage": 3100,
+      "handicapAccessible": true
+    }
+  ],
+  "employees": [],
+  "productTypes": [],
+  "customers": []
+}
