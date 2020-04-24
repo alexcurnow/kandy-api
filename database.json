@@ -65,7 +65,34 @@
       "handicapAccessible": true
     }
   ],
-  "employees": [],
+  "employees": [
+    {
+      "name": "Jandro Curnland",
+      "locationId": 1,
+      "manager": true,
+      "fullTime": true,
+      "hourlyRate": 20,
+      "id": 1
+    },
+    {
+      "name": "BJ Blaskowitz",
+      "locationId": 2,
+      "manager": false,
+      "fullTime": true,
+      "hourlyRate": 24,
+      "id": 2
+    }
+  ],
+  "managers": [
+    {
+      "name": "Charles",
+      "id": 1
+    },
+    {
+      "name": "Wentworth",
+      "id": 2
+    }
+  ],
   "productTypes": [
     {
       "id": 1,
@@ -84,5 +111,36 @@
       "type": "Soda"
     }
   ],
-  "customers": []
+  "customers": [
+    {
+      "email": "alex@alex.com",
+      "password": "alex",
+      "name": "Alexander Curnow",
+      "id": 1
+    },
+    {
+      "email": "mary@mary.com",
+      "password": "mary",
+      "name": "mary jane",
+      "id": 2
+    },
+    {
+      "email": "becky@becky.com",
+      "password": "becky",
+      "name": "Becky Curnow",
+      "id": 3
+    }
+  ],
+  "customerProducts": [
+    {
+      "customerId": "1",
+      "productId": 8,
+      "id": 1
+    },
+    {
+      "customerId": 1,
+      "productId": 3,
+      "id": 2
+    }
+  ]
 }
